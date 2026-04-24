@@ -113,7 +113,7 @@ const compareNames = (a: string, b: string): number => {
 };
 
 // This assumes competitors has already been sorted by group
-const padGroups = (competitors: Competitor[], numGroups: number): void => {
+const padGroups = (competitors: Competitor[], _numGroups: number): void => {
   let numInGroup = 0;
   for (let i = 0; i < competitors.length; i++) {
     const c = competitors[i];
