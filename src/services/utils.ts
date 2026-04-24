@@ -1,6 +1,5 @@
-import { Content } from "pdfmake/interfaces";
-import PdfNameProps from "../models/pdf-name-props";
-import { isConstructorDeclaration } from "typescript";
+import type { Content } from "pdfmake/interfaces";
+import type PdfNameProps from "../models/pdf-name-props";
 
 export const CURRENT_YEAR = new Date().getFullYear();
 export const NEW_COMPETITOR = "New competitor";
